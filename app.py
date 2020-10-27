@@ -3,7 +3,7 @@ from flask import Flask
 from buzz import generator
 
 app = Flask(__name__)
-#this comment will trigger an update
+
 @app.route("/")
 def generate_buzz():
     page = '<html><body><h1>'
